@@ -26,8 +26,8 @@
       <file leaf-file-name="1.1_object_primitive_literal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.1_object_primitive_literal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -55,14 +55,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.5_replace_string.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1.5_replace_string.js">
+      <file leaf-file-name="1.7_replace_word.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.7_replace_word.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.9_converting_ios_8601_data.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.9_converting_ios_8601_data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,6 +81,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -89,6 +98,9 @@
         <option value="$PROJECT_DIR$/1.2_extract_list_from_string.js" />
         <option value="$PROJECT_DIR$/1.3_typeof.js" />
         <option value="$PROJECT_DIR$/1.5_replace_string.js" />
+        <option value="$PROJECT_DIR$/1.7_replace_word.js" />
+        <option value="$PROJECT_DIR$/1.7_replace_word.html" />
+        <option value="$PROJECT_DIR$/1.9_converting_ios_8601_data.html" />
       </list>
     </option>
   </component>
@@ -99,8 +111,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="798" />
-    <option name="y" value="23" />
+    <option name="x" value="909" />
+    <option name="y" value="24" />
     <option name="width" value="917" />
     <option name="height" value="1047" />
   </component>
@@ -159,6 +171,8 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -219,15 +233,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478343794148</updated>
-      <workItem from="1478343795209" duration="8043000" />
+      <workItem from="1478343795209" duration="13857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8043000" />
+    <option name="totallyTimeSpent" value="13857000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="798" y="23" width="917" height="1047" extended-state="0" />
+    <frame x="909" y="24" width="917" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16030534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -267,18 +281,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.2_extract_list_from_string.js">
+    <entry file="file://$PROJECT_DIR$/1.5_replace_string.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.1_object_primitive_literal.js">
+    <entry file="file://$PROJECT_DIR$/1.7_replace_word.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -293,13 +307,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.5_replace_string.js">
+    <entry file="file://$PROJECT_DIR$/1.2_extract_list_from_string.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1_object_primitive_literal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.7_replace_word.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.9_converting_ios_8601_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Searching for strings</title>
+    <style>
+        .found{background-color: #f99}
+    </style>
+</head>
+<body>
+    <form id="textsearch">
+        <textarea id="incoming" cols="100" rows="10">
+        </textarea>
+        <p>
+            Search pattern:<input id="pattern" type="text">
+        </p>
+    </form>
+    <button id="searchSubmit">Search for pattern</button>
+    <div id="searchResult"></div>
+<script>
+    document.getElementById('searchSubmit').onclick = function () {
+        //获取模式
+        var pattern = document.getElementById('pattern').value;
+        var re = new RegExp(pattern,"g");
+        //获取字符串
+        var searchString = document.getElementById('incoming').value;
+        //替换
+        var resultString = searchString.replace(re,"<span class='found'>$&</span>");
+        //插入到页面
+        document.getElementById('searchResult').innerHTML = resultString;
+    }
+</script>
+</body>
+</html>
