@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessing num in table</title>
+</head>
+<body>
+<table id="table1">
+    <tr>
+        <td>a</td>
+        <td>145</td>
+    </tr>
+    <tr>
+        <td>b</td>
+        <td>123</td>
+    </tr>
+    <tr>
+        <td>c</td>
+        <td>777</td>
+    </tr>
+    <tr>
+        <td>d</td>
+        <td>421</td>
+    </tr>
+</table>
+<script>
+    var sum = 0;
+    //找到第二列所有单元格
+    var cells = document.querySelectorAll("td + td");
+
+    for (var i = 0;i < cells.length;i++)
+        sum += parseFloat(cells[i].firstChild.data);
+
+    //求和至末尾
+    var newRow = document.createElement("tr");
+
+    //第一个单元格
+    var firstCell = document.createElement("td");
+    var firstCellText = document.createTextNode("Sum:");
+    firstCell.appendChild(firstCellText);
+    newRow.appendChild(firstCell);
+
+    //带有综合的第二个单元格
+    var secondCell = document.createElement("td");
+    var secondCellText = document.createTextNode(sum);
+    secondCell.appendChild(secondCellText);
+    newRow.appendChild(secondCell);
+
+    //给表加行
+    document.getElementById("table1").appendChild(newRow);
+</script>
+</body>
+</html>
