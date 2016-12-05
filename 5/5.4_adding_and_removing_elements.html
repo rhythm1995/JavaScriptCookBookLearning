@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    table{
+        border-collapse:collapse;
+    }
+    td,th{
+        padding: 5px;
+        border:1px solid #ccc;
+    }
+    tr:nth-child(2n+1){
+        background-color: #eeffee;
+    }
+</style>
+</head>
+<body>
+<table id="mixed">
+    <tr>
+        <th>Value 1</th>
+        <th>Value 2</th>
+        <th>Value 3</th>
+    </tr>
+</table>
+<div id="result"></div>
+
+<script>
+    var values = new Array(3);
+    values[0] = [123.123,"apple",true];
+    values[1] = [53,"google",false];
+    values[3] = [102,42,"facebook",true];
+
+    var mixed = document.getElementById("mixed");
+    var tbody = document.createElement("tbody");
+
+    for (var i = 0;i < values.length;i++) {
+        var tr = document.createElement("tr");
+
+        for (var j = 0;j < values[i].length;j++){
+            var td = document.createElement("td");
+            var txt = document.createTextNode(values[i][j]);
+            td.appendChild(txt);
+            tr.appendChild(td);
+        }
+
+        tr.onclick = prunerow;
+
+        tbody.appendChild(tr);
+        mixed.appendChild(tbody);
+    }
+
+    function prunerow() {
+        //删除行
+        var parent = this.parentNode;
+        var oldrow = parent.remove(this);
+
+        //来自删除行的数据的datastring
+        var datastring = "";
+        for (var i = 0;i < oldrow.childNodes.length;i++){
+            var cell = oldrow.childNodes[i];
+            datastring += cell.firstChild.data + " ";
+        }
+
+        //输出消息
+        var msg = document.createTextNode("removed" + datastring);
+        var p = document.createElement("p");
+        p.appendChild(msg);
+        document.getElementById("result").appendChild(p);
+    }
+
+
+
+</script>
+</body>
+</html>
